@@ -1,0 +1,405 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+h1 {
+  font-size: 80px;
+}
+
+#name-plate {
+  margin: auto;
+  width: 50%;
+  margin-top: 75px;
+  margin-bottom: 40px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Prata', serif;
+  color: whitesmoke;
+  text-shadow: 4px 4px black;
+}
+
+h2 {
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  display: inline-block;
+}
+
+.navbar {
+  margin: 0;
+}
+
+#byline {
+  margin: auto;
+  width: 50%;
+  margin-bottom: 210px;
+  padding: 10px;
+  text-align: center;
+  font-family: 'Marck Script', cursive;
+  color: rgb(9, 41, 224);
+}
+
+#navbar-link {
+  color: #fff;
+}
+.navbar-custom {
+  background-color: black;
+  overflow: hidden;
+}
+
+strong {
+  color: black;
+}
+#logo {
+  padding-bottom: 5px;
+  margin-left: 10px;
+  font-family: 'Playfair Display', serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #fff;
+  background: black;
+
+}
+
+#icons {
+  padding-top: 10px;
+  text-align: center;
+  margin-bottom: -25px;
+  padding-right: 150px;
+}
+
+#icon {
+  display: inline-block;
+  text-align: center;
+}
+
+#links {
+  float: right;
+  padding-right: 20px;
+  font-family: 'Khand', sans-serif;
+  font-weight: lighter;
+}
+
+#link {
+  display: inline-block;
+  text-align: center;
+  padding: 2px;
+}
+
+.navbar-right-custom {
+  padding-right: 20px;
+  font-family: 'Khand', sans-serif;
+  font-weight: lighter;
+}
+
+.navbar-nav > li > a:hover {
+  color: black;
+}
+
+.wrap {
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  padding-bottom: 170px;
+  background: url("../images/blue-background.jpg");
+  margin: auto;
+}
+
+
+.wrapper {
+  background: url("../images/index-background.png") no-repeat center fixed;
+  background-size: cover;
+  padding: 115px;
+}
+
+.about-me-header {
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color:black;
+}
+
+.about-me-content {
+  width: 100%;
+  padding: 30px;
+  margin-top: 32px;
+  background: url("../images/concrete_seamless.png");
+  border-radius: 25px;
+}
+
+.about-me-content > p {
+  padding-top: 20px;
+  font-size: 16px;
+  line-height: 30px;
+  color: #666;
+}
+
+.container {
+  height: 100%;
+  padding-bottom: 50px;
+}
+
+#auth-image {
+  float: left;
+  width: 200px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+#program-image {
+  float: left;
+  width: 350px;
+  height: auto;
+  margin-top: 10px;
+  margin-right: 25px;
+}
+
+#skills-area-index {
+  width: 66%;
+  padding: 45px 10px 25px 31px;
+  background-color: rgb(77, 74, 74);
+  margin-left: 50px;
+  border-radius: 25px;
+  margin-top: 50px;
+  color: whitesmoke;
+}
+
+#skills-area-portfolio {
+  width: 75%;
+  padding: 45px 10px 25px 31px;
+  margin-top: 100px;
+  background-color: rgb(77, 74, 74);
+  margin-left: 200px;
+  border-radius: 25px;
+  color: whitesmoke
+}
+
+#skills-area-contact {
+  width: 100%;
+  padding: 45px 10px 25px 31px;
+  margin-top: 100px;
+  background-color: rgb(77, 74, 74);
+  margin-left: 200px;
+  border-radius: 25px;
+  color: whitesmoke
+}
+
+
+
+.skills-header {
+  margin-bottom: 15px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.connect-with-me-photo {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+}
+
+#images {
+  padding-top: 15px;
+  text-align: center;
+}
+
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  margin-top: 30px;
+  background-color: black;
+  margin-bottom: -1px;
+}
+
+.text-muted-footer {
+  margin-top: 15px;
+  color: #fff;
+}
+
+.two-toned-footer-color {
+  height: 6px;
+  padding-top: 3px;
+  background-color: black;
+}
+
+#resume{
+  color: whitesmoke
+}
+
+.portfolio-resume {
+  height: 50%;
+  width: 50%;
+  margin-left: 400px;
+  margin-top: 100px;
+}
+
+.contact-form {
+  width: 100%;
+  padding: 45px 10px 25px 31px;
+  margin-top: 30px;
+  background: url("../images/concrete_seamless.png");
+  border-radius: 25px;
+}
+
+.contact-form-header,
+.port-header {
+  margin-bottom: 33px;
+  font-family: Georgia, Times, "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: bold;
+  color: black;
+}
+
+#name_input,
+#mail_input,
+#msg {
+  width: 95%;
+  height: 30px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+#msg {
+  height: 200px;
+ ;
+}
+
+.label-name,
+.label-msg,
+.label-mail {
+  font-size: 17px;
+  color: black;
+}
+
+.contact-hr {
+margin-bottom: 30px;
+}
+
+.submit-btn {
+  padding: 15px 30px;
+  font-size: 16px;
+  font-weight: lighter;
+  color: #fff;
+  background-color: black;
+  border: 0;
+}
+
+.container {
+  height: 100%;
+  margin: auto;
+}
+
+#portfolio-area {
+
+  padding: 10px 10px 25px 31px;
+  margin-top: 30px;
+  margin-bottom: 70px;
+  background: url("../images/concrete_seamless.png");
+  border-radius: 25px;
+}
+
+#projects {
+ height: 100%;
+}
+
+#projects-quiz {
+  padding-bottom: 85px;
+}
+
+#projects-bands {
+  padding-bottom: 55px;
+}
+.port-imgs {
+  width: 206px;
+  height: 106px;
+  margin-bottom: 15px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+.work {
+  display: inline-block
+}
+a {
+  color: rgb(35, 34, 102);
+}
+
+@media only screen and (max-width: 767px) {
+
+  h1 {
+  font-size: 50px;
+  }
+
+  h2 {
+  font-size: 20px;
+  text-shadow: 1px 1px black;
+  display: inline-block;
+  }
+
+  #name-plate {
+  margin: auto;
+  width: 50%;
+  margin-right: 200px;
+  text-align: center;
+  font-family: 'Prata', serif;
+  color: whitesmoke;
+  text-shadow: 4px 4px black;
+  }
+
+  .navbar-header {
+    background-color: black;
+  }
+
+  #logo {
+
+    padding-left: 125px;
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+    background: black;
+  }
+
+  #icons {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-left: 165px;
+  }
+
+  #links {
+    text-align: center;
+    margin-bottom: 10px;
+    padding-right: 150px;
+  }
+
+  .portfolio-resume {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  margin-top: 100px;
+  }
+
+  #skills-area-portfolio {
+  width: 75%;
+  padding: 45px 10px 25px 31px;
+  background-color: rgb(77, 74, 74);
+  margin: 0;
+  border-radius: 25px;
+  color: whitesmoke;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+}
+
