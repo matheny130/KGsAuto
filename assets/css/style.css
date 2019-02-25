@@ -16,32 +16,23 @@ html {
   text-align: center;
   display: inline-block;
   margin-top: -50px;
-  background-image: url("../images/diamondplate.jpg");
+  background-color: blue;
 }
+
+
 
 .title {
   font-family: "Titillium Web", sans-serif;
-  -webkit-text-fill-color: #e00707;
-  -webkit-text-stroke: .75px #f7f1f1;
-
-}
-
-#title {
+  color: white;
+  background-clip: url("../images/diamondplate.jpg") ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 200px;
   padding-bottom: 20px;
 }
 
-#name-plate {
-  margin: auto;
-  width: 50%;
-  margin-top: 75px;
-  margin-bottom: 40px;
-  padding: 10px;
-  text-align: center;
-  font-family: 'Prata', serif;
-  color: whitesmoke;
-  text-shadow: 4px 4px black;
-}
+
+
 
 h2 {
   font-size: 20px;
@@ -53,15 +44,7 @@ h2 {
   margin: 0;
 }
 
-#byline {
-  margin: auto;
-  width: 50%;
-  margin-bottom: 210px;
-  padding: 10px;
-  text-align: center;
-  font-family: 'Marck Script', cursive;
-  color: rgb(9, 41, 224);
-}
+
 
 #navbar-link {
   color: #fff;
@@ -71,26 +54,8 @@ h2 {
   overflow: hidden;
 }
 
-strong {
-  color: black;
-}
-#logo {
-  padding-bottom: 5px;
-  margin-left: 10px;
-  font-family: 'Playfair Display', serif;
-  font-size: 24px;
-  font-weight: bold;
-  color: #fff;
-  background: black;
 
-}
 
-#icons {
-  padding-top: 10px;
-  text-align: center;
-  margin-bottom: -25px;
-  padding-right: 150px;
-}
 
 .federated-icon {
   float: right;
@@ -117,22 +82,6 @@ strong {
   font-size: 24px;
 }
 
-.navbar-right-custom {
-  padding-right: 20px;
-  font-family: 'Khand', sans-serif;
-  font-weight: lighter;
-}
-
-.navbar-nav > li > a:hover {
-  color: black;
-}
-
-.wrap {
-
-  padding-bottom: 70px;
-  padding-right: 100px;
-  margin: auto;
-}
 
 
 
@@ -142,7 +91,7 @@ strong {
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
 
-.about-me-header {
+.about-us-header {
   margin-bottom: 33px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 32px;
@@ -150,7 +99,7 @@ strong {
   color:black;
 }
 
-.about-me-content {
+.about-us-content {
   width: 100%;
   padding: 30px;
   margin-top: 32px;
@@ -158,7 +107,7 @@ strong {
   border-radius: 25px;
 }
 
-.about-me-content > p {
+.about-us-content > p {
   padding-top: 20px;
   font-size: 16px;
   line-height: 30px;
@@ -228,19 +177,6 @@ strong {
   color: whitesmoke;
 }
 
-.connect-with-me-photo {
-  width: 30px;
-  height: 30px;
-  background-color: #fff;
-}
-
-#images {
-  padding-top: 15px;
-  text-align: center;
-}
-
-
-
 .footer {
   position: absolute;
   bottom: 0;
@@ -262,108 +198,17 @@ strong {
   background-color: black;
 }
 
-#resume{
-  color: whitesmoke
-}
 
-.portfolio-resume {
-  height: 50%;
-  width: 50%;
-  margin-left: 400px;
-  margin-top: 100px;
-}
 
-.contact-form {
-  width: 100%;
-  padding: 45px 10px 25px 31px;
-  margin-top: 30px;
-  background: url("../images/concrete_seamless.png");
-  border-radius: 25px;
-}
 
-.contact-form-header,
-.port-header {
-  margin-bottom: 33px;
-  font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 32px;
-  font-weight: bold;
-  color: black;
-}
 
-#name_input,
-#mail_input,
-#msg {
-  width: 95%;
-  height: 30px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-
-#msg {
-  height: 200px;
- ;
-}
-
-.label-name,
-.label-msg,
-.label-mail {
-  font-size: 17px;
-  color: black;
-}
-
-.contact-hr {
-margin-bottom: 30px;
-}
-
-.submit-btn {
-  padding: 15px 30px;
-  font-size: 16px;
-  font-weight: lighter;
-  color: #fff;
-  background-color: black;
-  border: 0;
-}
 
 .container {
   height: 100%;
   margin: auto;
 }
 
-#portfolio-area {
 
-  padding: 10px 10px 25px 31px;
-  margin-top: 30px;
-  margin-bottom: 70px;
-  background: url("../images/concrete_seamless.png");
-  border-radius: 25px;
-}
-
-#projects {
- height: 100%;
-}
-
-#projects-quiz {
-  padding-bottom: 85px;
-}
-
-#projects-bands {
-  padding-bottom: 55px;
-}
-.port-imgs {
-  width: 206px;
-  height: 106px;
-  margin-bottom: 15px;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #fff;
-}
-
-.work {
-  display: inline-block
-}
-a {
-  color: rgb(35, 34, 102);
-}
 
 @media only screen and (max-width: 767px) {
 
