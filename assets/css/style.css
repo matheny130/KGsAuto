@@ -10,28 +10,36 @@ html {
 }
 
 .jumbotron {
-  height: 150px;
+  height: 200px;
   margin-bottom: 0px;
   width: 100%;
   text-align: center;
   display: inline-block;
-  margin-top: -50px;
+  margin-top: -70px;
   background-color: blue;
+  padding-bottom: 10px;
 }
 
+#wrapper {
+  display: inline-block;
+}
 
-
-.title {
-  font-family: "Titillium Web", sans-serif;
+h1.title {
+  font-family:  'Alegreya SC', serif;
   color: white;
-  background-clip: url("../images/diamondplate.jpg") ;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 200px;
-  padding-bottom: 20px;
+  background-image: url("../images/diamondplate.jpg") ;
+  font-size: 130px;
+  font-weight: 900;
+
 }
 
-
+#jumbotitle {
+  float: left;
+  margin-left: 50px;
+  margin-bottom: -27px;
+}
 
 
 h2 {
@@ -62,6 +70,7 @@ h2 {
   height: 75px;
   width: 150px;
   padding-right: 40px;
+  margin-top: 25px;
 }
 
 #links {
