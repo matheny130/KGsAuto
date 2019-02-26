@@ -16,7 +16,7 @@ html {
   text-align: center;
   display: inline-block;
   margin-top: -70px;
-  background-color: blue;
+  background-image: url("../images/diamondplate.jpg") ;
   padding-bottom: 10px;
 }
 
@@ -26,10 +26,11 @@ html {
 
 h1.title {
   font-family:  'Alegreya SC', serif;
+  text-shadow: 2px 2px ;
   color: white;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: url("../images/diamondplate.jpg") ;
+  background-image: linear-gradient(to top, #2219e5, #5c47e9, #816ceb, #a08feb, #bdb3e9, #beb3d8, #bcb4c7, #b7b6b8, #989698, #7a777a, #5e595c, #433d40);
   font-size: 130px;
   font-weight: 900;
 
@@ -39,6 +40,15 @@ h1.title {
   float: left;
   margin-left: 50px;
   margin-bottom: -27px;
+}
+
+
+.federated-icon {
+  float: right;
+  height: 75px;
+  width: 150px;
+  padding-right: 40px;
+  margin-top: 25px;
 }
 
 
@@ -65,13 +75,7 @@ h2 {
 
 
 
-.federated-icon {
-  float: right;
-  height: 75px;
-  width: 150px;
-  padding-right: 40px;
-  margin-top: 25px;
-}
+
 
 #links {
   font-family: 'Khand', sans-serif;
