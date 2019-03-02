@@ -39,7 +39,7 @@ h1.title {
 }
 
 h2.contact {
-  margin-top: -30px;
+  margin-top: -10px;
   text-shadow: 2px 2px ;
   font-size: 40px;
   color: rgb(53, 52, 52);
@@ -53,11 +53,14 @@ h2.contact {
   position: center;
 }
 
+#icon {
+  float: right;
+}
 
 .federated-icon {
-  float: right;
   height: 66px;
   width: 133px;
+  margin-left: -30px;
 }
 
 h2 {
@@ -70,13 +73,6 @@ h2 {
   color: #fff;
 }
 
-#links {
-  font-family: 'Khand', sans-serif;
-  font-weight: lighter;
-  display: inline-block;
-  position: center;
-  padding-left: 40px;
-}
 
 #link {
   display: inline-block;
@@ -86,6 +82,8 @@ h2 {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 24px;
+  font-family: 'Khand', sans-serif;
+  font-weight: lighter;
 }
 
 
