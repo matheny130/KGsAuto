@@ -50,19 +50,15 @@ h2.contact {
 }
 
 #jumbotitle {
-  float: left;
-  margin-left: 50px;
-
+  position: center;
 }
 
 
 .federated-icon {
   float: right;
-  height: 75px;
-  width: 150px;
+  height: 66px;
+  width: 133px;
   padding-right: 20px;
-  margin-top: 125px;
-  margin-left: 250px;
 }
 
 h2 {
@@ -71,22 +67,9 @@ h2 {
   display: inline-block;
 }
 
-
-
-
-
 #navbar-link {
   color: #fff;
 }
-.navbar-custom {
-background-color: black;
-  overflow: hidden;
-}
-
-
-
-
-
 
 #links {
   font-family: 'Khand', sans-serif;
