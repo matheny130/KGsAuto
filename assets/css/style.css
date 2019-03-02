@@ -1,7 +1,7 @@
 body {
   height: 100%;
   width: 100%;
-  background-color: whitesmoke;
+
 }
 
 html {
@@ -10,14 +10,16 @@ html {
 }
 
 .jumbotron {
-  height: 200px;
-  margin-bottom: 0px;
+  height: 300px;
   width: 100%;
   text-align: center;
   display: inline-block;
   margin-top: -70px;
-  background-image: url("../images/diamondplate.jpg") ;
-  padding-bottom: 10px;
+  background-color: rgba(238, 238, 238, 0.3) !important;
+  background-image: url("../images/dashboard.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
 }
 
 #wrapper {
@@ -26,20 +28,31 @@ html {
 
 h1.title {
   font-family:  'Alegreya SC', serif;
-  text-shadow: 2px 2px ;
-  color: white;
+  text-shadow: 3px 3px;
+  color: rgb(66, 41, 206);
+  background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to top, #2219e5, #5c47e9, #816ceb, #a08feb, #bdb3e9, #beb3d8, #bcb4c7, #b7b6b8, #989698, #7a777a, #5e595c, #433d40);
   font-size: 130px;
   font-weight: 900;
+}
 
+h2.contact {
+  margin-top: -30px;
+  text-shadow: 2px 2px ;
+  font-size: 40px;
+  color: rgb(53, 52, 52);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to top, #2219e5, #5c47e9, #816ceb, #a08feb, #bdb3e9, #beb3d8, #bcb4c7, #b7b6b8, #989698, #7a777a, #5e595c, #433d40);
 }
 
 #jumbotitle {
   float: left;
   margin-left: 50px;
-  margin-bottom: -27px;
+
 }
 
 
@@ -47,10 +60,10 @@ h1.title {
   float: right;
   height: 75px;
   width: 150px;
-  padding-right: 40px;
-  margin-top: 25px;
+  padding-right: 20px;
+  margin-top: 125px;
+  margin-left: 250px;
 }
-
 
 h2 {
   font-size: 20px;
@@ -58,9 +71,7 @@ h2 {
   display: inline-block;
 }
 
-.navbar {
-  margin: 0;
-}
+
 
 
 
@@ -68,7 +79,7 @@ h2 {
   color: #fff;
 }
 .navbar-custom {
-  background-color: black;
+background-color: black;
   overflow: hidden;
 }
 
@@ -99,7 +110,11 @@ h2 {
 
 
 .wrapper {
-  background-color: rgb(175, 190, 238);
+  background-color: rgba(238, 238, 238, 0.3) !important;
+  background-image: url("../images/diamondplate.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: color;
   padding: 115px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
