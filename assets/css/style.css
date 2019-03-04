@@ -47,7 +47,9 @@ h2.contact {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-image: linear-gradient(to top, #2219e5, #5c47e9, #816ceb, #a08feb, #bdb3e9, #beb3d8, #bcb4c7, #b7b6b8, #989698, #7a777a, #5e595c, #433d40);
+  border-bottom: 1px whitesmoke;
 }
+
 
 #jumbotitle {
   position: center;
@@ -55,6 +57,8 @@ h2.contact {
 
 #icon {
   float: right;
+  padding-top: 190px;
+  padding-right: 15px;
 }
 
 .federated-icon {
@@ -73,6 +77,9 @@ h2 {
   color: #fff;
 }
 
+#links {
+  padding-bottom: 10px;
+}
 
 #link {
   display: inline-block;
