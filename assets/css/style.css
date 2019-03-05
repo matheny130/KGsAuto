@@ -98,6 +98,7 @@ h2 {
 
 #frames {
   display: inline-block;
+  position: center;
 }
 
 
