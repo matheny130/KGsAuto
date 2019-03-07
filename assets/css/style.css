@@ -148,9 +148,11 @@ h2 {
   margin-top: 10px;
   margin-right: 25px;
 }
+
 #test-image {
   width: 400px;
 }
+
 #program-image {
   float: left;
   width: 350px;
@@ -168,28 +170,6 @@ h2 {
   margin-top: 50px;
   color: whitesmoke;
 }
-
-#skills-area-portfolio {
-  width: 75%;
-  padding: 45px 10px 25px 31px;
-  margin-top: 100px;
-  background-color: rgb(77, 74, 74);
-  margin-left: 200px;
-  border-radius: 25px;
-  color: whitesmoke
-}
-
-#skills-area-contact {
-  width: 100%;
-  padding: 45px 10px 25px 31px;
-  margin-top: 100px;
-  background-color: rgb(77, 74, 74);
-  margin-left: 200px;
-  border-radius: 25px;
-  color: whitesmoke
-}
-
-
 
 .skills-header {
   margin-bottom: 15px;
@@ -226,7 +206,10 @@ h2 {
     white-space: pre;
 }
 
-
+#testamonial {
+  border-style: solid;
+  border-width: 1px;
+}
 
 .container {
   height: 100%;
