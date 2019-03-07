@@ -209,8 +209,11 @@ h2 {
 #testamonial {
   border-style: solid;
   border-width: 1px;
+  font-size: 25px;
 }
-
+#testamonial > b {
+  font-size: 35px;
+}
 .container {
   height: 100%;
   margin: auto;
