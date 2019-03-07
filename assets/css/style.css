@@ -96,9 +96,9 @@ h2 {
   font-weight: lighter;
 }
 
-#frames {
-  display: inline-block;
-  position: center;
+#map {
+  float: right;
+  margin-top: -400px;
 }
 
 
