@@ -254,6 +254,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6586f0', end
   border-style: solid;
   border-width: 1px;
   font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #testamonial > b {
