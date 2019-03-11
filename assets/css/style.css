@@ -1,6 +1,6 @@
 body {
   height: 100%;
-  width: 100%;
+  width: 99%;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
   text-align: center;
   display: inline-block;
   margin-top: -70px;
-  background-color: rgba(238, 238, 238, 0.3) !important;
+  background-color: rgba(238, 238, 238, 0.2) !important;
   background-image: url("../images/dashboard.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -44,7 +44,7 @@ h2.contact {
   margin-bottom: -10px;
   text-shadow: 2px 2px ;
   font-size: 50px;
-  color: rgb(27, 8, 95);
+  color: rgb(66, 41, 206);
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -96,15 +96,17 @@ h2 {
 
 #map {
   float: right;
-  margin-top: -400px;
+  margin-top: -325px;
 }
 
 .wrapper {
-  background-color: rgba(238, 238, 238, 0.3) !important;
-  background-image: url("../images/diamondplate.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-blend-mode: color;
+  background: -moz-linear-gradient(269deg, rgba(101,134,240,.9) 0%, rgba(75,108,214,.9) 54%, rgba(214,214,214,.9) 100%); /* ff3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(101,134,240,.9)), color-stop(54%, rgba(75,108,214,.9)), color-stop(100%, rgba(214,214,214,.9))); /* safari4+,chrome */
+  background: -webkit-linear-gradient(269deg, rgba(101,134,240,.9) 0%, rgba(75,108,214,.9) 54%, rgba(214,214,214,.9) 100%); /* safari5.1+,chrome10+ */
+  background: -o-linear-gradient(269deg, rgba(101,134,240,.9) 0%, rgba(75,108,214,.9) 54%, rgba(214,214,214,.9) 100%); /* opera 11.10+ */
+  background: -ms-linear-gradient(269deg, rgba(101,134,240,.9) 0%, rgba(75,108,214,.9) 54%, rgba(214,214,214,.9) 100%); /* ie10+ */
+  background: linear-gradient(181deg, rgba(101,134,240,.9) 0%, rgba(75,108,214,.9) 54%, rgba(214,214,214,.9) 100%); /* w3c */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6586f0', endColorstr='#D6D6D6',GradientType=0 ); /* ie6-9 */
   margin-top: -29px;
   font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -156,8 +158,11 @@ h2 {
 }
 
 #test-image-1 {
-  width: 400px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #test-image-2 {
@@ -166,8 +171,12 @@ h2 {
 }
 
 #test-image-3 {
-  width: 600px;
-  height: 200px;
+  width: 500px;
+  height: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 #program-image {
@@ -178,14 +187,34 @@ h2 {
   margin-right: 25px;
 }
 
-#skills-area-index {
+#skills-area-index-1 {
   width: 66%;
   padding: 45px 10px 25px 31px;
-  background-color: rgb(77, 74, 74);
+  background-color: rgb(194, 6, 6);
   margin-left: 50px;
   border-radius: 25px;
   margin-top: 50px;
-  color: whitesmoke;
+  color: black;
+}
+
+#skills-area-index-2 {
+  width: 66%;
+  padding: 45px 10px 25px 31px;
+  background-color: rgb(208, 211, 13);
+  margin-left: 50px;
+  border-radius: 25px;
+  margin-top: 50px;
+  color: black;
+}
+
+#skills-area-index-3 {
+  width: 66%;
+  padding: 45px 10px 25px 31px;
+  background-color: rgb(3, 126, 9);
+  margin-left: 50px;
+  border-radius: 25px;
+  margin-top: 50px;
+  color: black;
 }
 
 .skills-header {
@@ -193,7 +222,7 @@ h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 25px;
   font-weight: bold;
-  color: whitesmoke;
+  color: black;
 }
 
 .footer {
@@ -207,7 +236,7 @@ h2 {
 
 .text-muted-footer {
   margin-top: 15px;
-  color: rgb(182, 177, 177);
+  color:rgb(189, 187, 187);
 }
 
 .two-toned-footer-color {
@@ -225,6 +254,8 @@ h2 {
   border-style: solid;
   border-width: 1px;
   font-size: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #testamonial > b {
@@ -251,69 +282,86 @@ h2 {
 
 @media only screen and (max-width: 767px) {
 
-  h1 {
-  font-size: 50px;
+  body {
+  height: auto;
+  width: auto;
   }
 
-  h2 {
+  #jumbotron {
+    height: auto;
+    width: auto;
+  }
+
+  h1.title {
+  padding-top: 20px;
+  font-size: 30px;
+  padding-bottom: 20px;
+  text-shadow: .5px .5px;
+  }
+
+  h2.contact {
+  font-size: 20px;
+  text-shadow: .5px .5px
+  }
+
+  .federated-icon {
+  height: 0px;
+  width: 0px;
+  margin-top: 0px;
+}
+
+h2 {
   font-size: 20px;
   text-shadow: 1px 1px black;
   display: inline-block;
-  }
-
-  #name-plate {
-  margin: auto;
-  width: 50%;
-  margin-right: 200px;
-  text-align: center;
-  font-family: 'Prata', serif;
-  color: whitesmoke;
-  text-shadow: 4px 4px black;
-  }
-
-  .navbar-header {
-    background-color: black;
-  }
-
-  #logo {
-
-    padding-left: 125px;
-    font-family: 'Playfair Display', serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #fff;
-    background: black;
-  }
-
-  #icons {
-    text-align: center;
-    margin-bottom: 10px;
-    padding-left: 165px;
-  }
-
-  #links {
-    text-align: center;
-    margin-bottom: 10px;
-    padding-right: 150px;
-  }
-
-  .portfolio-resume {
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  margin-top: 100px;
-  }
-
-  #skills-area-portfolio {
-  width: 75%;
-  padding: 45px 10px 25px 31px;
-  background-color: rgb(77, 74, 74);
-  margin: 0;
-  border-radius: 25px;
-  color: whitesmoke;
-  margin-top: 50px;
-  margin-left: 50px;
 }
 
+#navbar-link {
+  color: #fff;
+}
+
+#links {
+  padding-bottom: 10px;
+  margin-top: -40px;
+}
+
+#link {
+  display: inline-block;
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  font-family: 'Khand', sans-serif;
+  font-weight: lighter;
+}
+
+#test-image-3 {
+  height: 150px;
+  width: 300px;
+}
+
+#test-image-1 {
+  height: 150px;
+  width: 300px;
+}
+
+#map {
+ margin-top: auto;
+ margin-left: auto;
+}
+
+#faceframe {
+margin-left: -9.5%;
+}
+
+#ad-image {
+  height: 100%;
+  width: 100%;
+}
+
+.footer-1 {
+  color: whitesmoke;
+}
 }
 
