@@ -6,7 +6,10 @@ body {
   overflow-x: hidden
 }
 
-
+html {
+  position: relative;
+  min-height: 100%;
+}
 
 .jumbotron {
   height: 310px;
@@ -58,7 +61,7 @@ h2.contact {
 #icon {
   float: right;
   margin-top: -260px;
-  padding-right: 15px;
+  padding-right: 5px;
 }
 
 .federated-icon {
@@ -296,7 +299,14 @@ h2 {
   font-size: 20px;
 }
 
+@media only screen and (max-width: 1448px) {
 
+  .federated-icon {
+  height: 0px;
+  width: 0px;
+  margin-top: 0px;
+  }
+}
 
 @media only screen and (min-width: 700px) and (max-width: 1350px) {
 
@@ -304,6 +314,11 @@ h2 {
   height: auto;
   width: auto;
   }
+
+  html {
+  position: relative;
+  min-height: 100%;
+}
 
   #jumbotron {
     height: auto;
@@ -326,7 +341,7 @@ h2 {
   height: 0px;
   width: 0px;
   margin-top: 0px;
-}
+  }
 
 h2 {
   font-size: 20px;
@@ -387,6 +402,11 @@ h2 {
   height: auto;
   width: 100%;
   }
+
+  html {
+  position: relative;
+  min-height: 100%;
+}
 
   #jumbotron {
    height: auto;
