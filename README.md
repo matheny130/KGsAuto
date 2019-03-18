@@ -9,7 +9,7 @@ This is a web page created for a local automobile repair bsuiness. It is meant t
 
 Use the links in the navbar to learn more about different aspects of KG's Auto Repair
 
-![KG's Auto Repair](./assets/imgages/kgsauto.jpg)
+![KG's Auto Repair](./assets/images/kgsauto.jpg)
 
 
 ## Technologies used
