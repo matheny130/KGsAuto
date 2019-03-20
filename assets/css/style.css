@@ -368,6 +368,8 @@ h2 {
   font-weight: lighter;
 }
 
+
+
 #test-image-3 {
   height: 150px;
   width: 300px;
@@ -440,6 +442,13 @@ h2 {
   color: #fff;
 }
 
+.about-us-content > p {
+  padding-top: 20px;
+  font-size: 13px;
+  line-height: 25px;
+  color: black;
+}
+
 #links {
   padding-bottom: 10px;
   margin-top: -40px;
@@ -500,7 +509,7 @@ h2 {
 #faceframe {
   float: none;
   height: auto;
-  width: auto;
+  width: 400px;
   margin-left: -30px;
 }
 
