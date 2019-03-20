@@ -103,7 +103,7 @@ h2 {
 }
 
 .wrapper {
-  background-color: rgba(238, 238, 238, 0.3) !important;
+  background-color: rgba(238, 238, 238, 0.2) !important;
   background: url("../images/lift1.jpg") no-repeat center center fixed;
   background-size: cover;
   background-blend-mode: color;
@@ -460,7 +460,7 @@ h2 {
   padding-right: 70px;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 15px;
+  font-size: 13px;
   font-family: 'Khand', sans-serif;
   font-weight: lighter;
 }
