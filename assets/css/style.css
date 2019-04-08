@@ -370,7 +370,10 @@ h2 {
   font-weight: lighter;
 }
 
-
+#test-image-2 {
+  height: 200px;
+  width: 250px;
+}
 
 #test-image-3 {
   height: 150px;
@@ -383,7 +386,7 @@ h2 {
 }
 
 #test-image-1 {
-  height: 150px;
+  height: 200px;
   width: 300px;
 }
 
@@ -497,7 +500,7 @@ h2 {
 }
 
 #test-image-1 {
-  height: 150px;
+  height: 200px;
   width: 300px;
 }
 
