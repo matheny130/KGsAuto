@@ -179,7 +179,9 @@ h2 {
 #test-image-2 {
   width: 200px;
   height: 200px;
-  display: inline-block
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #test-image-3 {
