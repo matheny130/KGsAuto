@@ -402,7 +402,7 @@ h2 {
 }
 }
 
-  @media only screen and (min-width: 400px) and (max-width: 700px) {
+  @media only screen and (max-width: 700px) {
 
   body {
   height: 100%;
@@ -428,7 +428,7 @@ h2 {
 
   h2.contact {
   font-size: 20px;
-  text-shadow: .5px .5px;
+  text-shadow: .25px .25px;
   padding-bottom: 15px;
   }
 
