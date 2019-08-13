@@ -201,6 +201,13 @@ h2 {
   margin-right: auto;
 }
 
+#test-image-5 {
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  margin-top: 5px;;
+}
+
 #program-image {
   float: left;
   width: 350px;
